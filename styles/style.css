@@ -100,7 +100,6 @@ body {
   z-index: 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   align-items: center;
   margin: 0px 50px 52px;
   color: white;
