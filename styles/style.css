@@ -1,7 +1,3 @@
-body {
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -161,7 +157,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-between;
   height: 100%;
   padding: 48px 40px;
   color:white;
@@ -187,17 +183,14 @@ body {
 }
 
 .card_type_film {
-  gap: 274px;
   background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  gap: 30px;
   background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  gap: 126px;
   background-image: url(../images/card-lot-03.jpg);
 }
 
